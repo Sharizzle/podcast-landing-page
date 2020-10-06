@@ -4,21 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <!-- <link rel="shortcut icon" href="./assets/img/favicon.ico" /> -->
-    <!-- <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/img/apple-icon.png"
-    /> -->
     <link
       rel="stylesheet"
-      href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+      href="../assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
 
     <title>Geekout | Home</title>
   </head>
@@ -39,7 +30,7 @@
           ><button
             class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
             type="button"
-            onclick="toggleNavbar('example-collapse-navbar')"
+            id="hamburger"
           >
             <i class="text-white fas fa-bars"></i>
           </button>
@@ -55,7 +46,7 @@
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-purple-600 text-purple-600 fab fa-discord text-lg leading-lg "
+                  class="lg:text-indigo-400 text-indigo-400 fab fa-discord text-lg leading-lg "
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Share</span></a
               >
@@ -65,7 +56,7 @@
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-blue-800 text-blue-500 fab fa-twitter text-lg leading-lg "
+                  class="lg:text-blue-500 text-blue-500 fab fa-twitter text-lg leading-lg "
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Tweet</span></a
               >
@@ -75,7 +66,7 @@
                 class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 href="#pablo"
                 ><i
-                  class="lg:text-red-300 text-red-500 fab fa-youtube text-lg leading-lg "
+                  class="lg:text-red-500 text-red-500 fab fa-youtube text-lg leading-lg "
                 ></i
                 ><span class="lg:hidden inline-block ml-2">Youtube</span></a
               >
@@ -100,7 +91,7 @@
       >
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover"
-          style='background-image: url("./assets/img/landing.jpg");  filter: grayscale(80%);'
+          style='background-image: url("./images/landing.jpg");  filter: grayscale(80%);'
         >
           <span
             id="blackOverlay"
@@ -201,12 +192,12 @@
             <div data-aos="fade-right" class="lg:mb-0 px-6 mb-12">
               <img
                 alt="..."
-                src="./assets/img/avatar.png"
+                src="./images/avatar.png"
                 class="shadow-lg rounded-full max-w-full mx-auto mb-2"
                 style="max-width: 120px;"
               />
               <div class="text-center">
-                <h5 class="text-xl font-bold">Sharif Kanaan</h5>
+                <h5 class="text-xl font-bold">Techy Geek</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                   Website Maintainer / Manager
                 </p>
@@ -220,12 +211,12 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="./assets/img/avatar.png"
+                  src="./images/avatar.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Fraser Rose</h5>
+                  <h5 class="text-xl font-bold">Car Geek</h5>
                   <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                     Marketing Manager
                   </p>
@@ -237,12 +228,12 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="./assets/img/avatar.png"
+                  src="./images/avatar.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Jawad Adra</h5>
+                  <h5 class="text-xl font-bold">Law Geek</h5>
                   <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                     Editor
                   </p>
@@ -254,12 +245,12 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="./assets/img/avatar.png"
+                  src="./images/avatar.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Sanjay Fernandez</h5>
+                  <h5 class="text-xl font-bold">Biological Geek</h5>
                   <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                     Creative Director
                   </p>
@@ -271,12 +262,12 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="./assets/img/avatar.png"
+                  src="./images/avatar.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
                 <div class="pt-6 text-center">
-                  <h5 class="text-xl font-bold">Jeremy Ling</h5>
+                  <h5 class="text-xl font-bold">Financial Geek</h5>
                   <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
                     Show Organizer
                   </p>
@@ -431,7 +422,6 @@
           <div class="w-full md:w-4/12 px-4 mx-auto text-center">
             <div class="text-sm text-gray-600 font-semibold py-1">
               Copyright © 2020 Geekout
-              
             </div>
           </div>
         </div>
@@ -439,23 +429,7 @@
     </footer>
   </body>
 
-  <script>
-    function toggleNavbar(collapseID) {
-      document.getElementById(collapseID).classList.toggle("hidden");
-      document.getElementById(collapseID).classList.toggle("block");
-    }
-  </script>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-
-<script>
-  AOS.init({
-      delay: 400,
-      duration: 800,
-      once: true,
-    })
-
-</script>
+<script src="./script.js"></script>
 
 </html>
